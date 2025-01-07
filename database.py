@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-SQLALCHEMY_DATABASE_URL = "postgresql://hkjkgguh:2-ANukfWYzlCDVI7EziWJzfifNFbyEmx@peanut.db.elephantsql.com/hkjkgguh"
+SQLALCHEMY_DATABASE_URL = "postgresql://avnadmin:AVNS_N0FSILZby92tRwICVDh@deploy-database-hikmat-bd3a.h.aivencloud.com:26396/defaultdb?sslmode=require"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
